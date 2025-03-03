@@ -1,0 +1,113 @@
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_35518 && [1/2] Building C object CMakeFiles\cmTC_35518.dir\HAVE_UNISTD_H.c.obj
+FAILED: CMakeFiles/cmTC_35518.dir/HAVE_UNISTD_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_35518.dir\HAVE_UNISTD_H.c.obj /FdCMakeFiles\cmTC_35518.dir\ /FS -c C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6d239 && [1/2] Building C object CMakeFiles\cmTC_6d239.dir\HAVE_SYS_TIME_H.c.obj
+FAILED: CMakeFiles/cmTC_6d239.dir/HAVE_SYS_TIME_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_6d239.dir\HAVE_SYS_TIME_H.c.obj /FdCMakeFiles\cmTC_6d239.dir\ /FS -c C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c902d && [1/2] Building C object CMakeFiles\cmTC_c902d.dir\HAVE_SYS_PARAM_H.c.obj
+FAILED: CMakeFiles/cmTC_c902d.dir/HAVE_SYS_PARAM_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_c902d.dir\HAVE_SYS_PARAM_H.c.obj /FdCMakeFiles\cmTC_c902d.dir\ /FS -c C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2): fatal error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3fd15 && [1/2] Building C object CMakeFiles\cmTC_3fd15.dir\HAVE_SYS_IOCTL_H.c.obj
+FAILED: CMakeFiles/cmTC_3fd15.dir/HAVE_SYS_IOCTL_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_3fd15.dir\HAVE_SYS_IOCTL_H.c.obj /FdCMakeFiles\cmTC_3fd15.dir\ /FS -c C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(2): fatal error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b2a3a && [1/2] Building C object CMakeFiles\cmTC_b2a3a.dir\HAVE_USBHID_H.c.obj
+FAILED: CMakeFiles/cmTC_b2a3a.dir/HAVE_USBHID_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_b2a3a.dir\HAVE_USBHID_H.c.obj /FdCMakeFiles\cmTC_b2a3a.dir\ /FS -c C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c(2): fatal error C1083: 无法打开包括文件: “usbhid.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c7269 && [1/2] Building C object CMakeFiles\cmTC_c7269.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_c7269.exe
+FAILED: cmTC_c7269.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c7269.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_c7269.dir\CheckFunctionExists.c.obj  /out:cmTC_c7269.exe /implib:cmTC_c7269.lib /pdb:cmTC_c7269.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_c7269.dir\CheckFunctionExists.c.obj /out:cmTC_c7269.exe /implib:cmTC_c7269.lib /pdb:cmTC_c7269.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_c7269.dir/intermediate.manifest CMakeFiles\cmTC_c7269.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 gettimeofday，函数 main 中引用了该符号
+cmTC_c7269.exe : fatal error LNK1120: 1 个无法解析的外部命令
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b4057 && [1/2] Building C object CMakeFiles\cmTC_b4057.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_b4057.exe
+FAILED: cmTC_b4057.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b4057.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_b4057.dir\CheckFunctionExists.c.obj  /out:cmTC_b4057.exe /implib:cmTC_b4057.lib /pdb:cmTC_b4057.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_b4057.dir\CheckFunctionExists.c.obj /out:cmTC_b4057.exe /implib:cmTC_b4057.lib /pdb:cmTC_b4057.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_b4057.dir/intermediate.manifest CMakeFiles\cmTC_b4057.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 XParseGeometry，函数 main 中引用了该符号
+cmTC_b4057.exe : fatal error LNK1120: 1 个无法解析的外部命令
+ninja: build stopped: subcommand failed.
+
+
+

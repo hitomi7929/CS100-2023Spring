@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\bin\Release\freeglut.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\bin\Release\PvZ.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

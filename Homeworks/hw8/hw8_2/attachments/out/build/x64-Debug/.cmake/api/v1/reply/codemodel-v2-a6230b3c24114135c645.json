@@ -1,0 +1,474 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-Debug-2b7609f4db92a4d2e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-Debug-4f818ab0274246e8ad30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "src/Framework",
+					"jsonFile" : "directory-src.Framework-Debug-6638a606d0c681d79aed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Framework",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/GameWorld",
+					"jsonFile" : "directory-src.GameWorld-Debug-c844abc5c4633c912dbb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameWorld",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/GameObject",
+					"jsonFile" : "directory-src.GameObject-Debug-90033b514e8e8b2afa8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/GameObject/Sun",
+					"jsonFile" : "directory-src.GameObject.Sun-Debug-c5020d20b5ae5089fdbf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Sun",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "src/GameObject/PlantingSpot",
+					"jsonFile" : "directory-src.GameObject.PlantingSpot-Debug-d54797d4ecf0dfef7e41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/PlantingSpot",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/GameObject/Seed",
+					"jsonFile" : "directory-src.GameObject.Seed-Debug-8f41c45d2f6e7c357c9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Seed",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src/GameObject/Plant",
+					"jsonFile" : "directory-src.GameObject.Plant-Debug-414bdefe8f1c7cbc2e6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Plant",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/GameObject/Zombie",
+					"jsonFile" : "directory-src.GameObject.Zombie-Debug-a68ac0d6f406d95e575b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Zombie",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "src/GameObject/CooldownMask",
+					"jsonFile" : "directory-src.GameObject.CooldownMask-Debug-c192f1b5de632412a72f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/CooldownMask",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/GameObject/Shovel",
+					"jsonFile" : "directory-src.GameObject.Shovel-Debug-a448798c4c45446f8f4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Shovel",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "src/GameObject/Bullet",
+					"jsonFile" : "directory-src.GameObject.Bullet-Debug-a16e3a1734bf148b40ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Bullet",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/GameObject/Object",
+					"jsonFile" : "directory-src.GameObject.Object-Debug-ac098a7f83589eda60ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Object",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/GameWorld/HoldItem",
+					"jsonFile" : "directory-src.GameWorld.HoldItem-Debug-652ceab8ab87a5754974.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameWorld/HoldItem",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "PvZ",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 13,
+					"id" : "Bullet::@b35291d8b2a500e73071",
+					"jsonFile" : "target-Bullet-Debug-4090cb3ada2e99f8b8ea.json",
+					"name" : "Bullet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "CooldownMask::@6663893f762e94ee1f98",
+					"jsonFile" : "target-CooldownMask-Debug-316ed46625eb50335baa.json",
+					"name" : "CooldownMask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Framework::@bbcc00d4dd4c98727359",
+					"jsonFile" : "target-Framework-Debug-ccac783c5b06c076c71f.json",
+					"name" : "Framework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "GameObject::@cf4d02a5657504c132a7",
+					"jsonFile" : "target-GameObject-Debug-289c3d0061ed7b87533a.json",
+					"name" : "GameObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GameWorld::@2c651ff0fb8a858345be",
+					"jsonFile" : "target-GameWorld-Debug-f16baab268554096ffc0.json",
+					"name" : "GameWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "HoldItem::@58d494f402b653221cd4",
+					"jsonFile" : "target-HoldItem-Debug-c0bda7c8b230bfc61085.json",
+					"name" : "HoldItem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Object::@8a626b0739af1d89806f",
+					"jsonFile" : "target-Object-Debug-2240f51cb5660555c1ed.json",
+					"name" : "Object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Plant::@8f1b7619dbd0cfd1a10e",
+					"jsonFile" : "target-Plant-Debug-0a6b4534fa4a96226d10.json",
+					"name" : "Plant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "PlantingSpot::@7ce956e7b69a64ac2bbf",
+					"jsonFile" : "target-PlantingSpot-Debug-c8804eb297be96022c07.json",
+					"name" : "PlantingSpot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PvZ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PvZ-Debug-8edc6288d6acc61bfefe.json",
+					"name" : "PvZ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-Debug-678f8a8a108fdaceb0a0.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Seed::@8bb9c627c02e76658f36",
+					"jsonFile" : "target-Seed-Debug-10ab2c8e5ee62b4ade5e.json",
+					"name" : "Seed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Shovel::@5426d032952ff240c8d5",
+					"jsonFile" : "target-Shovel-Debug-e4ae465eeffc7c18d9d1.json",
+					"name" : "Shovel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Sun::@d72b3b35ff89cdb7b0be",
+					"jsonFile" : "target-Sun-Debug-e837a2efa37024d84bc4.json",
+					"name" : "Sun",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Zombie::@2f2655b9b23d92b2cc46",
+					"jsonFile" : "target-Zombie-Debug-94728d5a5a9127bcd286.json",
+					"name" : "Zombie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-Debug-3852b8b24235851386ee.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-Debug-423d68cc239f35e533e8.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/build/x64-Debug",
+		"source" : "C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

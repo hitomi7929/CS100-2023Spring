@@ -1,0 +1,51 @@
+﻿  Building Custom Rule C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/third_party/freeglut/CMakeLists.txt
+  fg_callbacks.c
+  fg_cursor.c
+  fg_display.c
+  fg_ext.c
+  fg_font_data.c
+  fg_gamemode.c
+  fg_geometry.c
+  fg_gl2.c
+  fg_init.c
+  fg_input_devices.c
+  fg_joystick.c
+  fg_main.c
+  fg_misc.c
+  fg_overlay.c
+  fg_spaceball.c
+  fg_state.c
+  fg_stroke_mono_roman.c
+  fg_stroke_roman.c
+  fg_structure.c
+  fg_teapot.c
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\src\fg_teapot.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  正在编译...
+  fg_videoresize.c
+  fg_window.c
+  fg_font.c
+  fg_menu.c
+  fg_cursor_mswin.c
+  fg_display_mswin.c
+  fg_ext_mswin.c
+  fg_gamemode_mswin.c
+  fg_init_mswin.c
+  fg_input_devices_mswin.c
+  fg_joystick_mswin.c
+  fg_main_mswin.c
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\src\mswin\fg_main_mswin.c(47,80): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“pGetTouchInputInfo”
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\src\mswin\fg_main_mswin.c(48,92): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“pCloseTouchInputHandle”
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\src\mswin\fg_main_mswin.c(1508,67): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“pGetTouchInputInfo”
+  fg_menu_mswin.c
+  fg_spaceball_mswin.c
+  fg_state_mswin.c
+  fg_structure_mswin.c
+  fg_window_mswin.c
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\src\mswin\fg_window_mswin.c(85,86): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“pRegisterTouchWindow”
+  fgSetupPixelFormat(): there is still some work to do here!
+C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\src\mswin\fg_window_mswin.c(730,71): warning C4312: “类型强制转换”: 从“unsigned int”转换到更大的“pRegisterTouchWindow”
+  xparsegeometry_repl.c
+  正在生成代码...
+    正在创建库 C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/lib/Release/freeglut.lib 和对象 C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/lib/Release/freeglut.exp
+  freeglut.vcxproj -> C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\bin\Release\freeglut.dll

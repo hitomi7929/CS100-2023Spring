@@ -1,0 +1,10 @@
+prefix=C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/install/x64-Debug
+libdir=C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/out/install/x64-Debug/lib
+includedir=${prefix}/include
+
+Name: glut
+Description: A freely licensed and improved alternative to the GLUT library
+Version: 3.2.2
+Libs: -L${libdir} -lfreeglut
+Libs.private: -lopengl32 -lwinmm -lgdi32 -lm
+Cflags: -I${includedir} -DFREEGLUT_STATIC

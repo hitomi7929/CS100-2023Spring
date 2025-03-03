@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Sun\Sun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Sun\Sun.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Sun\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AB33EA39-2FC1-35D4-841E-C98F1922CC1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1EE7F2D5-E134-3038-947E-E0B3BAA7DFB3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

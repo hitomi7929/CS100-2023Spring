@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{29A1F990-AE29-3B6C-A19A-DC340D8B49C4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PvZ</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PvZ.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PvZ.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PvZ.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PvZ.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Debug\Framework.lib;lib\Debug\GameWorld.lib;lib\Debug\GameObject.lib;lib\Debug\Sun.lib;lib\Debug\PlantingSpot.lib;lib\Debug\Seed.lib;lib\Debug\Plant.lib;lib\Debug\Zombie.lib;lib\Debug\Bullet.lib;lib\Debug\Shovel.lib;lib\Debug\HoldItem.lib;lib\Debug\Object.lib;lib\Debug\CooldownMask.lib;lib\Debug\GameWorld.lib;lib\Debug\GameObject.lib;lib\Debug\Sun.lib;lib\Debug\PlantingSpot.lib;lib\Debug\Seed.lib;lib\Debug\Plant.lib;lib\Debug\Zombie.lib;lib\Debug\Bullet.lib;lib\Debug\Shovel.lib;lib\Debug\HoldItem.lib;lib\Debug\Object.lib;lib\Debug\CooldownMask.lib;lib\Debug\Framework.lib;lib\Debug\freeglut.lib;opengl32.lib;winmm.lib;lib\Debug\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/lib/Debug/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/bin/Debug/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Release\Framework.lib;lib\Release\GameWorld.lib;lib\Release\GameObject.lib;lib\Release\Sun.lib;lib\Release\PlantingSpot.lib;lib\Release\Seed.lib;lib\Release\Plant.lib;lib\Release\Zombie.lib;lib\Release\Bullet.lib;lib\Release\Shovel.lib;lib\Release\HoldItem.lib;lib\Release\Object.lib;lib\Release\CooldownMask.lib;lib\Release\GameWorld.lib;lib\Release\GameObject.lib;lib\Release\Sun.lib;lib\Release\PlantingSpot.lib;lib\Release\Seed.lib;lib\Release\Plant.lib;lib\Release\Zombie.lib;lib\Release\Bullet.lib;lib\Release\Shovel.lib;lib\Release\HoldItem.lib;lib\Release\Object.lib;lib\Release\CooldownMask.lib;lib\Release\Framework.lib;lib\Release\freeglut.lib;opengl32.lib;winmm.lib;lib\Release\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/lib/Release/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/bin/Release/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\Framework.lib;lib\MinSizeRel\GameWorld.lib;lib\MinSizeRel\GameObject.lib;lib\MinSizeRel\Sun.lib;lib\MinSizeRel\PlantingSpot.lib;lib\MinSizeRel\Seed.lib;lib\MinSizeRel\Plant.lib;lib\MinSizeRel\Zombie.lib;lib\MinSizeRel\Bullet.lib;lib\MinSizeRel\Shovel.lib;lib\MinSizeRel\HoldItem.lib;lib\MinSizeRel\Object.lib;lib\MinSizeRel\CooldownMask.lib;lib\MinSizeRel\GameWorld.lib;lib\MinSizeRel\GameObject.lib;lib\MinSizeRel\Sun.lib;lib\MinSizeRel\PlantingSpot.lib;lib\MinSizeRel\Seed.lib;lib\MinSizeRel\Plant.lib;lib\MinSizeRel\Zombie.lib;lib\MinSizeRel\Bullet.lib;lib\MinSizeRel\Shovel.lib;lib\MinSizeRel\HoldItem.lib;lib\MinSizeRel\Object.lib;lib\MinSizeRel\CooldownMask.lib;lib\MinSizeRel\Framework.lib;lib\MinSizeRel\freeglut.lib;opengl32.lib;winmm.lib;lib\MinSizeRel\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/lib/MinSizeRel/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/bin/MinSizeRel/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\Framework;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\freeglut\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\third_party\SOIL\include;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Sun;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\PlantingSpot;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Seed;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Plant;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Zombie;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Shovel;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Bullet;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameWorld\HoldItem;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\Object;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\GameObject\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\Framework.lib;lib\RelWithDebInfo\GameWorld.lib;lib\RelWithDebInfo\GameObject.lib;lib\RelWithDebInfo\Sun.lib;lib\RelWithDebInfo\PlantingSpot.lib;lib\RelWithDebInfo\Seed.lib;lib\RelWithDebInfo\Plant.lib;lib\RelWithDebInfo\Zombie.lib;lib\RelWithDebInfo\Bullet.lib;lib\RelWithDebInfo\Shovel.lib;lib\RelWithDebInfo\HoldItem.lib;lib\RelWithDebInfo\Object.lib;lib\RelWithDebInfo\CooldownMask.lib;lib\RelWithDebInfo\GameWorld.lib;lib\RelWithDebInfo\GameObject.lib;lib\RelWithDebInfo\Sun.lib;lib\RelWithDebInfo\PlantingSpot.lib;lib\RelWithDebInfo\Seed.lib;lib\RelWithDebInfo\Plant.lib;lib\RelWithDebInfo\Zombie.lib;lib\RelWithDebInfo\Bullet.lib;lib\RelWithDebInfo\Shovel.lib;lib\RelWithDebInfo\HoldItem.lib;lib\RelWithDebInfo\Object.lib;lib\RelWithDebInfo\CooldownMask.lib;lib\RelWithDebInfo\Framework.lib;lib\RelWithDebInfo\freeglut.lib;opengl32.lib;winmm.lib;lib\RelWithDebInfo\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/lib/RelWithDebInfo/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/bin/RelWithDebInfo/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments -BC:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build --check-stamp-file C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments -BC:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build --check-stamp-file C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments -BC:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build --check-stamp-file C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments -BC:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build --check-stamp-file C:/Academic_Files/2023_Spring/CS100_YuexinMa/Homeworks/hw8/hw8_2/attachments/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\ZERO_CHECK.vcxproj">
+      <Project>{EB006219-53B5-3EB1-A268-DA1FF2DB9890}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\src\Framework\Framework.vcxproj">
+      <Project>{C4A0C429-DFBE-32A9-8A2F-8DFB6B9E3609}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\src\GameWorld\GameWorld.vcxproj">
+      <Project>{88343DB7-E0B1-3695-B6F5-608A97BBC678}</Project>
+      <Name>GameWorld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\SOIL\SOIL.vcxproj">
+      <Project>{E2797C71-17CA-35F4-8149-6F1BB4B59A47}</Project>
+      <Name>SOIL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Academic_Files\2023_Spring\CS100_YuexinMa\Homeworks\hw8\hw8_2\attachments\build\freeglut\freeglut.vcxproj">
+      <Project>{BFB42D7C-A237-30E7-AEEA-86FA27B56B4B}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
